@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Roboto+Mono&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  h1, h2  {
+    font-size: 16px
+  }
+
+  p {
+    font-size: 12px
+  }
+
+  .img-round {
+    height: 70px;
+    width: 70px;
+  }
+
+  .btn-dark {
+    font-size: 12px;
+  }
+
+}
+
+body {
+  background-color: #fff4e4;
+}
+
+h1, h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #d1274b;
+  padding: 10px;
+  margin: 20px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #3d0e1e;
+  padding: 10px;
+  margin: 30px 10px;
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3d0e1e;
+}
+
+.container {
+  margin: 40px auto;
+  /*width: 800px;*/
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin: 15px auto;
+  padding: 20px;
+  box-shadow: 3px 3px 15px rgba(61, 15,  30, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-round {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: 48px;
+  color: #3d0e1e;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-dark {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #d1274b;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.btn-dark:hover {
+  opacity: 0.8;
+}
+
+#media-icon-middle:hover{
+  background-color: #fff4e4;
+}
